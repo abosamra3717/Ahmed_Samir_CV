@@ -43,8 +43,8 @@ export function Hero() {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.7, delay: 0.2 }}
       >
-        <div className="aspect-[3/4] rounded-2xl overflow-hidden relative shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] border border-outline-variant/30">
-          <img alt={t.name} className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/ADBb0ujTScPUxSemiBCQ8-lWz5CvNg78Y4gwKZLx4Y026FJ_RXf528TtKzsRt6CRRpuGIkXJK6sv82nn9IV0Fe1priSYpb-nUE0QlQTgoU10Xmjy0hlYTmCBiygO-tv48AuQg1EsMQBoJUT14yXrXrD6epj6dLmSrv72WHsGuoRUmHRyJYsVQj8YPanqGrbPC9YN5bQaQ0GFZgNctgVRYOgPyI-7jUAkqaQ2AQpCUUfGuLKUODS2N2msDJJE9ZlZmXHcsMsmxOo1CosK" />
+        <div className="aspect-[3/4] rounded-2xl overflow-hidden relative shadow-[0_20px_40px_-15px_rgba(0,0,0,0.1)] border border-outline-variant/30 bg-surface-variant">
+          <img alt={t.name} className="w-full h-full object-cover" src="/profile.png" />
         </div>
         {/* Decorative Element */}
         <div className="absolute -z-10 -bottom-8 -end-8 w-64 h-64 bg-tertiary-fixed/20 rounded-full blur-3xl"></div>
